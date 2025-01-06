@@ -1,0 +1,77 @@
+/* App.css */
+/* App.css */
+.game {
+  position: relative;
+  width: 500px;
+  height: 600px;
+  background-color: #000;
+  overflow: hidden;
+  margin: auto;
+  border: 2px solid #fff;
+}
+
+.spaceship {
+  position: absolute;
+  bottom: 0;
+  width: 60px;
+  height: 30px;
+  background-color: #00f;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.enemy {
+  position: absolute;
+  width: 60px;
+  height: 50px;
+  background-color: #f00;
+  border-radius: 10px;
+  animation: enemyAnimation 5s linear infinite;
+}
+
+@keyframes enemyAnimation {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(10px); }
+  100% { transform: translateY(0); }
+}
+
+.laser {
+  position: absolute;
+  width: 5px;
+  height: 20px;
+  background-color: #0f0;
+  border-radius: 2px;
+  animation: laserAnimation 0.5s linear;
+}
+
+@keyframes laserAnimation {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.score {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.game-over {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+}
+
+button {
+  background-color: #f00;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
