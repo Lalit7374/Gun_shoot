@@ -1,4 +1,7 @@
-# React + Vite
+<h1>Gun_shoot game</h1>
+
+<h3> created with the help of ->React + Vite</h3>
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
