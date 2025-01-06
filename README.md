@@ -1,4 +1,4 @@
-<h1>Gun_shoot game</h1>
+<h1>Gun_shoot game 🚀🚩</h1>
 
 <h3> created with the help of ->React + Vite</h3>
 
